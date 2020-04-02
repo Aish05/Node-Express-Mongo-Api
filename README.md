@@ -23,6 +23,7 @@ in an env file using command npm i dotenv
 1. The package models contains a model class which is the schema for the database
 2. The package route contains a router class which handles creation, updation, deletion and viewing of the posts api with validation, request and response
 3. The file app.js acts as a middleware to listen to the requests, connection to the Database, applies the useful components such as body-parser, cors
+4. The DB_CONNECTION is a variable created in .env file that stores the database connection string from Atlas Mongodb 
 
 # Deployment and Running
 For this app, I have hosted it in local machine
